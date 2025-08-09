@@ -1,0 +1,45 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 1rem;
+}
+
+.array-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.array-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-width: 50px;
+  border-radius: 5px;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.array-item.compare {
+  background: yellow;
+}
+
+.array-item.swap {
+  background: lightcoral;
+}
+
+.array-item.insert, .array-item.overwrite {
+  background: lightblue;
+}
+
+.array-item.pivot {
+  background: plum;
+}
+
+.array-item.sorted {
+  background: lightgreen;
+}
